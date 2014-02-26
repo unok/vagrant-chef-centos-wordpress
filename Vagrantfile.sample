@@ -116,6 +116,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     chef.add_recipe "wp-cli"
     chef.add_recipe "wp-install"
     chef.add_recipe "wp-i18n"
+    chef.add_recipe "php-remote-debug"
 
   end
 
